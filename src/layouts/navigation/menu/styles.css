@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  body {
+    padding-top: 0 !important;
+  }
+  .fixed-top {
+    position: relative !important;
+  }
+}

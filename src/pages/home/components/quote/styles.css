@@ -1,0 +1,10 @@
+#home-quote {
+  background: url("../../../../assets/img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+}

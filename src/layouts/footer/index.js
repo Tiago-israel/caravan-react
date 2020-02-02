@@ -61,7 +61,7 @@ export default () => {
               <li>
                 <a
                   style={{ maxWidth: "140px" }}
-                  href
+                  href="aaa"
                   className="btn btn-sm btn-outline-secondary btn-block mb-2"
                 >
                   Facebook
@@ -70,7 +70,7 @@ export default () => {
               <li>
                 <a
                   style={{ maxWidth: "140px" }}
-                  href
+                  href="aaa"
                   className="btn btn-sm btn-outline-secondary btn-block mb-2"
                 >
                   Instagran
@@ -79,7 +79,7 @@ export default () => {
               <li>
                 <a
                   style={{ maxWidth: "140px" }}
-                  href
+                  href="aaa"
                   className="btn btn-sm btn-outline-secondary btn-block mb-2"
                 >
                   Youtube

@@ -4,6 +4,7 @@ import Banner from "./components/banner";
 import Benefits from "./components/benefits";
 import Quote from "./components/quote";
 import CommonQuestions from "./components/common-questions";
+import Footer from "../../layouts/footer";
 
 export default () => (
   <>
@@ -12,5 +13,6 @@ export default () => (
     <Benefits />
     <Quote />
     <CommonQuestions />
+    <Footer />
   </>
 );

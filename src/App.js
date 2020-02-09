@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./pages/home";
+import Main from "./layouts/main";
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Main />
     </div>
   );
 }

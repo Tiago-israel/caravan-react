@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "../../../assets/img/caravan.svg";
+import Logo from "../../assets/img/caravan.svg";
 import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
-import LoginModal from "../../../components/login-modal";
+import LoginModal from "../../components/login-modal";
 import "./styles.css";
 
 export default () => {

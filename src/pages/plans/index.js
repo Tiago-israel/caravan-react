@@ -9,10 +9,11 @@ const Plans = () => (
     <Title text="seu plano, sua viagem" subtitle="Escolha o Plano" />
     <Row>
       <Col md className="mb-5">
-        <Plan title="Gold" benefits={benefits.gold} price="5.000" />
+        <Plan showButton title="Gold" benefits={benefits.gold} price="5.000" />
       </Col>
       <Col md className="mb-5">
         <Plan
+          showButton
           benefits={benefits.platinum}
           price="7.500"
           header={

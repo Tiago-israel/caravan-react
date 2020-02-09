@@ -20,11 +20,13 @@ const Plan = props => (
         </Form.Control>
       </Form.Group>
       <Row className="align-items-center mt-4">
-        <Col>
-          <Button size="lg" block variant="primary">
-            Comprar Plano
-          </Button>
-        </Col>
+        {props.showButton && (
+          <Col>
+            <Button size="lg" block variant="primary">
+              Comprar Plano
+            </Button>
+          </Col>
+        )}
         <Col>
           <span className="h4">R${props.price}</span>
         </Col>

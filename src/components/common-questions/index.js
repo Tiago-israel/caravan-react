@@ -7,7 +7,7 @@ import {
   Button,
   Dropdown
 } from "react-bootstrap";
-import Title from "../../../../components/title";
+import Title from "../title";
 
 const CommonQuestions = () => (
   <Container id="common-questions" as="section">
@@ -35,12 +35,6 @@ const CommonQuestions = () => (
         </Accordion>
       </Col>
     </Row>
-    <div className="text-center my-4">
-      <p className="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-      <Button size="lg" variant="primary">
-        Entre em Contato
-      </Button>
-    </div>
   </Container>
 );
 

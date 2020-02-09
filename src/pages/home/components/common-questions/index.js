@@ -7,13 +7,11 @@ import {
   Button,
   Dropdown
 } from "react-bootstrap";
+import Title from "../../../../components/title";
 
 export default () => (
   <Container id="common-questions" as="section">
-    <div className="my-5 text-center">
-      <span className="h6">AINDA ESTÁ COM DÚVIDAS?</span>
-      <h2 className="display-4 text-primary">Perguntas Frequentes</h2>
-    </div>
+    <Title text="ainda está com dúvidas?" subtitle="Perguntas Frequentes" />
     <Row className="justify-content-center">
       <Col md={6}>
         <Accordion defaultActiveKey="0">

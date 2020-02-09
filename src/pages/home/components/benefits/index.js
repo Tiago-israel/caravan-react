@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import Title from "../../../../components/title";
 import Passaporte from "../../../../assets/img/icones/passaporte.svg";
 import Passagens from "../../../../assets/img/icones/passagens.svg";
 import Translado from "../../../../assets/img/icones/translado.svg";
@@ -10,10 +11,10 @@ import Turismo from "../../../../assets/img/icones/turismo.svg";
 export default () => (
   <section className="py-5 bg-light text-center">
     <Container>
-      <div className="my-5">
-        <span className="h6">TUDO DE MELHOR PARA VOCÊ</span>
-        <h2 className="display-4 text-primary">Aproveite as Vantagens</h2>
-      </div>
+      <Title
+        text="tudo de melhor para você"
+        subtitle="Aproveite as Vantagens"
+      />
       <Row>
         <Col md={6} xl={4}>
           <BenefitItem title="Documentos" img={Passaporte} />

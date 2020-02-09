@@ -1,11 +1,4 @@
 import React from "react";
-import Main from "./layouts/main";
-function App() {
-  return (
-    <div className="App">
-      <Main />
-    </div>
-  );
-}
+import Routes from "./routes";
 
-export default App;
+export default () => <Routes />;

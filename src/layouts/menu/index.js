@@ -17,22 +17,22 @@ export default () => {
         fixed="top"
         expand="md"
       >
-        <Navbar.Brand>
+        <Navbar.Brand href="/">
           <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <NavDropdown title="Locais" id="places-nav-dropdown">
-              <NavDropdown.Item>California</NavDropdown.Item>
-              <NavDropdown.Item>Paris</NavDropdown.Item>
-              <NavDropdown.Item>Dublin</NavDropdown.Item>
+              <NavDropdown.Item href="/locais/california">California</NavDropdown.Item>
+              <NavDropdown.Item href="/locais/paris">Paris</NavDropdown.Item>
+              <NavDropdown.Item href="/locais/dublin">Dublin</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item>
-              <Nav.Link>Planos</Nav.Link>
+              <Nav.Link href="/planos">Planos</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link>Contato</Nav.Link>
+              <Nav.Link href="/contato">Contato</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link onClick={handleShow}>Login</Nav.Link>

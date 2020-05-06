@@ -35,7 +35,7 @@ export default () => (
           <BenefitItem title="Turismo" img={Turismo} />
         </Col>
       </Row>
-      <Button className="mt-4" size="lg" variant="primary">
+      <Button href="/planos" className="mt-4" size="lg" variant="primary">
         Comprar Plano
       </Button>
     </Container>
